@@ -1,0 +1,23 @@
+["protostar.config"]
+protostar_version = "0.3.0"
+
+["protostar.project"]
+libs_path = "lib"
+
+[profile.testnet.protostar.deploy]
+network="alpha-goerli"
+
+[profile.mainnet.protostar.deploy]
+network="alpha-mainnet"
+
+["protostar.contracts"]
+main = [
+    "src/ERC721_ex1.cairo",
+]
+main_ex2 = [
+    "src/ERC721_ex2.cairo",
+]
+
+# protostar deploy ./build/main.json --network alpha-goerli --inputs 71942470984044 4279881 0x00a596DeDE49D268d6ad089B56cc76598AF3e949183A8eD10AbdE924de191e48
+
+#legs -6, sex -2, wings -2
