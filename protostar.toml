@@ -23,6 +23,9 @@ main_ex3 = [
 main_ex4 = [
     "src/ERC721_ex4.cairo",
 ]
+main_ex5 = [
+    "src/ERC721_ex5.cairo",
+]
 # protostar deploy ./build/main.json --network alpha-goerli --inputs 71942470984044 4279881 0x00a596DeDE49D268d6ad089B56cc76598AF3e949183A8eD10AbdE924de191e48
 
 #legs -6, sex -2, wings -2
