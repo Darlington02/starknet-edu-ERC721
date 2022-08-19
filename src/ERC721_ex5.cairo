@@ -326,7 +326,7 @@ end
 
 
 @external
-func register_me_as_a_breeder{
+func register_me_as_breeder{
         syscall_ptr : felt*,
         pedersen_ptr : HashBuiltin*,
         range_check_ptr
@@ -346,7 +346,7 @@ end
 
 
 @external
-func unregister_me_as_a_breeder{
+func unregister_me_as_breeder{
         syscall_ptr : felt*,
         pedersen_ptr : HashBuiltin*,
         range_check_ptr
